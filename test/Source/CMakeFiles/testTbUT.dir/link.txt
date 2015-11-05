@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/testTbUT.dir/ClusterCreatorTests.cpp.o CMakeFiles/testTbUT.dir/main.cpp.o  -o testTbUT -rdynamic ../../src/libTbUT.a ../gtest/src/gtest-build/libgtest.a ../gmock/src/gmock-build/libgmock.a -lpthread 

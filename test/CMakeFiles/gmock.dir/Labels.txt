@@ -1,0 +1,13 @@
+# Target labels
+ gmock
+# Source files and their labels
+/home/ja/Documents/lhcb/TbUTTests/test/CMakeFiles/gmock
+/home/ja/Documents/lhcb/TbUTTests/test/CMakeFiles/gmock.rule
+/home/ja/Documents/lhcb/TbUTTests/test/CMakeFiles/gmock-complete.rule
+/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-install.rule
+/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-mkdir.rule
+/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-download.rule
+/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-update.rule
+/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-patch.rule
+/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-configure.rule
+/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-build.rule

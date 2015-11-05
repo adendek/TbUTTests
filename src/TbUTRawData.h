@@ -1,0 +1,122 @@
+#pragma once
+
+#include <string>
+#include <vector>
+#include "TbUTSensor.h"
+
+namespace TbUT
+{
+class RawData
+{
+public:
+	typedef int DataType;
+	typedef std::vector<DataType> SignalVector;
+
+	static void setSensor(Sensor p_sensor)
+	{
+		s_sensor=p_sensor;
+	}
+	static int getMaxChannel()
+	{
+		return s_sensor.maxChannel();
+	}
+
+	static int getMinChannel()
+	{
+		return s_sensor.minChannel();
+	}
+	static int getnChannelNumber()
+	{
+		return s_sensor.channelNumber*s_sensor.sensorNumber();
+	}
+
+	static int getSensorNumber()
+	{
+		return s_sensor.sensorNumber();
+	}
+
+	RawData():
+		m_signal(),
+		m_time(),
+		m_temperature(),
+		m_tdc()
+	{
+	};
+
+	RawData& operator=( const RawData& rhs )
+	{
+		 if( this != &rhs ) {
+			 m_signal=rhs.m_signal;
+			 m_time=rhs.m_time;
+			 m_temperature=rhs.m_temperature;
+			 m_tdc=rhs.m_tdc;
+		 }
+	      return *this;
+	  }
+	RawData(const RawData &rhs):
+		 m_signal(rhs.m_signal),
+		 m_time(rhs.m_time),
+		 m_temperature(rhs.m_temperature),
+		 m_tdc(rhs.m_tdc)
+	{
+	}
+
+
+	void setTemp(double p_temp)
+	{
+		m_temperature = p_temp;
+	}
+	void setTime(unsigned long long p_time)
+	{
+		m_time = p_time;
+	}
+	void setSignal(DataType p_signal)
+	{
+		m_signal.push_back(p_signal);
+	}
+
+	void setSignal(SignalVector& p_signal)
+	{
+		m_signal=p_signal;
+	}
+
+	SignalVector& getSignal()
+	{
+		return m_signal;
+	}
+
+	unsigned long long getTime() const
+	{
+		return m_time;
+	}
+	double getTemp() const
+	{
+		return m_temperature;
+	}
+
+	DataType getSignal(int channel) const
+	{
+		return m_signal[channel];
+	}
+
+	unsigned int getTDC() const
+	{
+		return m_tdc;
+	}
+
+	void setTDC(unsigned int p_tdc)
+	{
+		m_tdc=p_tdc;
+	}
+
+protected:
+	unsigned long long m_time;
+	double m_temperature;
+	unsigned int m_tdc;
+
+	static Sensor s_sensor;
+private:
+	SignalVector m_signal;
+};
+
+}

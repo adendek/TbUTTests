@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/CMakeFiles/gmock"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/CMakeFiles/gmock.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/CMakeFiles/gmock-complete.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-install.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-download.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-update.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-patch.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-configure.rule"
+		},
+		
+		{
+			"file" : "/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock-stamp/gmock-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gmock" ],
+		"name" : "gmock"
+	}
+}

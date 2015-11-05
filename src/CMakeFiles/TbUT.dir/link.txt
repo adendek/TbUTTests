@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTbUT.a  CMakeFiles/TbUT.dir/TbUTCluster.cpp.o CMakeFiles/TbUT.dir/TbUTClusterCreator.cpp.o CMakeFiles/TbUT.dir/TbUTRawData.cpp.o CMakeFiles/TbUT.dir/TbUTSensor.cpp.o
+/usr/bin/ranlib libTbUT.a

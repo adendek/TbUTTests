@@ -1,0 +1,1 @@
+cmd='/home/ja/Documents/lhcb/TbUTTests/cmake-3.4.0-rc3-Linux-x86_64/bin/cmake;-GUnix Makefiles;/home/ja/Documents/lhcb/TbUTTests/test/gmock/src/gmock'
